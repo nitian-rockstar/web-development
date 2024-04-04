@@ -1,1 +1,14 @@
-Body{background-color: skyblue;}
+Body{background-color: rgb(153, 121, 121);}
+table{
+    border : 2px solid black
+}
+th{
+    border : 2px solid black
+}
+td{
+    border : 2px solid black
+}
+.centre{
+    margin:0 auto;
+    width: 50%;
+}
