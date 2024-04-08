@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic forms</title>
+</head>
+
+<body>
+    <h1>Fill This Forms To Apply In This Web Development Course</h1>
+    <form action="/form.php" method="post" target="_self" enctype="multipart/form-data" rel="Hello!" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0
+        <input type="range" id="a" name="a" value="50">
+        100+
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br> <br>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your Last Name"><br>
+        <fieldset>
+            <legend>Programming Languages:</legend>
+            <input type="checkbox" id="html" name="html">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javascript" name="JAVASCRIPT">
+            <label for="javascript">JAVASCRIPT</label><br>
+            <input type="radio" id="html" name="html">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="JAVASCRIPT">
+            <label for="javascript">JAVASCRIPT</label><br>
+        </fieldset>
+        <label for="car">Choose A Car:</label>
+        <select id="car" name="car">
+            <option value="Volvo">Volvo</option>
+            <option value="BOLERO">BOLERO</option>
+            <option value="THAR">THAR</option>
+            <option value="MERCEDEZ">MERCEdEZ</option>
+            <option value="BMW">BMW</option>
+        </select> <br>
+        <input list="Browsers" name="Browsers" placeholder="Browsers">
+        <datalist id="Browsers">
+            <option value="Chrome">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="opera">
+            <option value="safari">
+        </datalist>
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea><br>
+        <button type="button" onclick="alert('Hello World!')"> Click me!</button><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd" >Password:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <label for="Favc">Favourite color:</label>
+        <input type="color" id="favc" name="favc" value="#ff0000"><br>
+        <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday" max="2050-12-31" min="2004-01-01"><br>
+  <input type="image" src="google logo.png" alt="Submit" width="48" height="48"><br>
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile">
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>

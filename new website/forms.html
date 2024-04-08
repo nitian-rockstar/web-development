@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms - Lets learn it</title>
+    <title>NEW LINE - WITHOUT USING BR TAG</title>
 </head>
+
 <body>
-    <h1>Form to apply in this web development course</h1>
-    <form action="/action_page.txt" method="post">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br>
-        <input type="checkbox" id="html" name="favourite language" value="HTML">
-        <label for="html">HTML</label><br>
-        <input type="checkbox" id="CSS" name="favourite language" value="CSS">
-        <label for="CSS">CSSL</label><br>
-        <input type="checkbox" id="javascript" name="favourite language" value="JAVASCRIPT">
-        <label for="javascript">JAVA SCRIPT</label><br>
-        <input type="submit" value="submit">
+    <form action="NULL">
+        <div>
+            <div>
+                <label for="name">Enter your name:</label>
+            </div>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <div>
+                <label for="cityname">Enter your City Name:</label>
+            </div>
+            <input type="text" id="cityname" name="cityname">
+        </div>
+        <div>
+            <div>
+                <label for="pincode">Enter your Area Pincode:</label>
+            </div>
+            <input type="number" id="pincode" name="pincode">
+        </div>
+        <div>
+            <input type="submit" name="submit">
+            <input type="reset" name="reset">
+        </div>
     </form>
 </body>
+
 </html>
